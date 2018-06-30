@@ -1,0 +1,4 @@
+DEFINE_MEMBER_2(Flags, flags)
+DEFINE_MEMBER_2(Private, private)
+DEFINE_MEMBER_2(Entry, entry)
+DEFINE_MEMBER_2(Func, func)

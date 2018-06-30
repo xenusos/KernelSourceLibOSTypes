@@ -1,0 +1,4 @@
+DEFINE_MEMBER_2(PageLink, page_link)
+DEFINE_MEMBER_2(Offset, offset)
+DEFINE_MEMBER_2(Length, length)
+DEFINE_MEMBER_2(DmaAddress, dma_address)

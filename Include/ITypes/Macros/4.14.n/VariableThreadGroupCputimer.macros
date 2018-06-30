@@ -1,0 +1,3 @@
+DEFINE_MEMBER_2(CpuTimeAtomic, cputime_atomic)
+DEFINE_MEMBER_2(Running, running)
+DEFINE_MEMBER_2(CheckingTimer, checking_timer)

@@ -1,0 +1,6 @@
+DEFINE_MEMBER_2(Lock, fa_lock)
+DEFINE_MEMBER_2(Magic, magic)
+DEFINE_MEMBER_2(Fd, fa_fd)
+DEFINE_MEMBER_2(Next, fa_next)
+DEFINE_MEMBER_2(File, fa_file)
+DEFINE_MEMBER_2(Rcu, fa_rcu)

@@ -1,0 +1,4 @@
+DEFINE_MEMBER_2(Start, start)
+DEFINE_MEMBER_2(Stop, stop)
+DEFINE_MEMBER_2(Next, next)
+DEFINE_MEMBER_2(Show, show)

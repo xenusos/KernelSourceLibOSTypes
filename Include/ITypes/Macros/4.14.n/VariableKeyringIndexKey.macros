@@ -1,0 +1,3 @@
+DEFINE_MEMBER_2(Type, type)
+DEFINE_MEMBER_2(Description, description)
+DEFINE_MEMBER_2(DescLen, desc_len)

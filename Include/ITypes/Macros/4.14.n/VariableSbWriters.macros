@@ -1,0 +1,3 @@
+DEFINE_MEMBER_2(Frozen, frozen)
+DEFINE_MEMBER_2(WaitUnfrozen, wait_unfrozen)
+DEFINE_MEMBER_2(RwSem, rw_sem)

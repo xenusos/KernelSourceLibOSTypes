@@ -1,0 +1,2 @@
+DEFINE_MEMBER_2(CopyLock, fl_copy_lock)
+DEFINE_MEMBER_2(ReleasePrivate, fl_release_private)

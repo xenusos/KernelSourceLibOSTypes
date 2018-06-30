@@ -1,0 +1,5 @@
+DEFINE_MEMBER_2(Name, name)
+DEFINE_MEMBER_2(IsVisible, is_visible)
+DEFINE_MEMBER_2(IsBinVisible, is_bin_visible)
+DEFINE_MEMBER_2(Attrs, attrs)
+DEFINE_MEMBER_2(BinAttrs, bin_attrs)

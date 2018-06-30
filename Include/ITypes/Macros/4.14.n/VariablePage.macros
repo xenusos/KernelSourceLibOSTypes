@@ -1,0 +1,1 @@
+DEFINE_MEMBER_2(Flags, flags)

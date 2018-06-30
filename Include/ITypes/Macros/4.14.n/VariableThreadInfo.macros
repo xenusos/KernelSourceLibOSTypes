@@ -1,0 +1,2 @@
+DEFINE_MEMBER_2(Flags, flags)
+DEFINE_MEMBER_2(Status, status)

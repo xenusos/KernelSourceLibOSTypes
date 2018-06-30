@@ -1,0 +1,5 @@
+DEFINE_MEMBER_2(Ops, ops)
+DEFINE_MEMBER_2(Detach, detach)
+DEFINE_MEMBER_2(Activate, activate)
+DEFINE_MEMBER_2(Sync, sync)
+DEFINE_MEMBER_2(Dismiss, dismiss)

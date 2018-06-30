@@ -1,0 +1,13 @@
+DEFINE_TYPED_MEMBER_2(uint32, uint32_t, result_mask, ResultMask)
+DEFINE_TYPED_MEMBER_2(uint16, umode_t, mode, Mode)
+DEFINE_TYPED_MEMBER_2(uint32, uint32_t, nlink, NLink)
+DEFINE_TYPED_MEMBER_2(uint64, l_long, blksize, BLKSize)
+DEFINE_TYPED_MEMBER_2(uint64, uint64_t, attributes, Attributes)
+DEFINE_TYPED_MEMBER_2(uint64, uint64_t, attributes_mask, AttributesMask)
+DEFINE_TYPED_MEMBER_2(uint64, uint64_t, ino, INO)
+DEFINE_TYPED_MEMBER_2(uint32, dev_t, dev, Dev) //TODO (reece): check
+DEFINE_TYPED_MEMBER_2(uint32, dev_t, rdev, RDev) //TODO (reece): check
+DEFINE_TYPED_MEMBER_2(uint32, uid_t, uid, UID)
+DEFINE_TYPED_MEMBER_2(uint32, uid_t, gid, GID)
+DEFINE_TYPED_MEMBER_2(int64, loff_t, size, Size)
+DEFINE_TYPED_MEMBER_2(uint64,  uint64_t, blocks, Blocks)

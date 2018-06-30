@@ -1,0 +1,4 @@
+DEFINE_MEMBER_2(SourceList, source_list)
+DEFINE_MEMBER_2(TargetList, target_list)
+DEFINE_MEMBER_2(Target, target)
+DEFINE_MEMBER_2(Source, source)

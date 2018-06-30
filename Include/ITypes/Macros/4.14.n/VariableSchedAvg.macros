@@ -1,0 +1,6 @@
+DEFINE_MEMBER_2(LastUpdateTime, last_update_time)
+DEFINE_MEMBER_2(LoadSum, load_sum)
+DEFINE_MEMBER_2(UtilSum, util_sum)
+DEFINE_MEMBER_2(PeriodContrib, period_contrib)
+DEFINE_MEMBER_2(LoadAvg, load_avg)
+DEFINE_MEMBER_2(UtilAvg, util_avg)

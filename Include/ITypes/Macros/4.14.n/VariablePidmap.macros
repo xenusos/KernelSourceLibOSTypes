@@ -1,0 +1,2 @@
+DEFINE_MEMBER_2(NrFree, nr_free)
+DEFINE_MEMBER_2(Page, page)

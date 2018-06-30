@@ -1,0 +1,5 @@
+DEFINE_MEMBER_2(AddBus, add_bus)
+DEFINE_MEMBER_2(RemoveBus, remove_bus)
+DEFINE_MEMBER_2(MapBus, map_bus)
+DEFINE_MEMBER_2(Read, read)
+DEFINE_MEMBER_2(Write, write)

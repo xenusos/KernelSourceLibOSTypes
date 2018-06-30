@@ -1,0 +1,7 @@
+DEFINE_MEMBER_2(Start, start)
+DEFINE_MEMBER_2(End, end)
+DEFINE_MEMBER_2(Name, name)
+DEFINE_MEMBER_2(Flags, flags)
+DEFINE_MEMBER_2(Desc, desc)
+DEFINE_MEMBER_2(Siblings, siblings)
+DEFINE_MEMBER_2(Child, child)

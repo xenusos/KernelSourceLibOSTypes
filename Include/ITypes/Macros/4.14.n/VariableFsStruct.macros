@@ -1,0 +1,7 @@
+DEFINE_MEMBER_2(Users, users)
+DEFINE_MEMBER_2(Lock, lock)
+DEFINE_MEMBER_2(Seq, seq)
+DEFINE_MEMBER_2(UMask, umask)
+DEFINE_MEMBER_2(InExec, in_exec)
+DEFINE_MEMBER_2(Root, root)
+DEFINE_MEMBER_2(Pwd, pwd)

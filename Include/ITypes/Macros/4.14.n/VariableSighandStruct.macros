@@ -1,0 +1,4 @@
+DEFINE_MEMBER_2(Count, count)
+DEFINE_MEMBER_2(Action, action)
+DEFINE_MEMBER_2(SigLock, siglock)
+DEFINE_MEMBER_2(SignalfdWqh, signalfd_wqh)

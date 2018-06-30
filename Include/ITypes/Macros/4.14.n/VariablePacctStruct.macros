@@ -1,0 +1,7 @@
+DEFINE_MEMBER_2(ACFlag, ac_flag)
+DEFINE_MEMBER_2(ACExitcode, ac_exitcode)
+DEFINE_MEMBER_2(ACMem, ac_mem)
+DEFINE_MEMBER_2(ACUtime, ac_utime)
+DEFINE_MEMBER_2(ACStime, ac_stime)
+DEFINE_MEMBER_2(ACMinflt, ac_minflt)
+DEFINE_MEMBER_2(ACMajflt, ac_majflt)

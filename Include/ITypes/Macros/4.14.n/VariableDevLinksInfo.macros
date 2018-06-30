@@ -1,0 +1,3 @@
+DEFINE_MEMBER_2(Suppliers, suppliers)
+DEFINE_MEMBER_2(Consumers, consumers)
+DEFINE_MEMBER_2(Status, status)

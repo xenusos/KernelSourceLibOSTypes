@@ -1,0 +1,5 @@
+DEFINE_MEMBER_2(KObj, kobj)
+DEFINE_MEMBER_2(Mod, mod)
+DEFINE_MEMBER_2(DriversDir, drivers_dir)
+DEFINE_MEMBER_2(Mp, mp)
+DEFINE_MEMBER_2(KobjCompletion, kobj_completion)

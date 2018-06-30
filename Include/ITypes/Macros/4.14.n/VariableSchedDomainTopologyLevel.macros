@@ -1,0 +1,5 @@
+DEFINE_MEMBER_2(Mask, mask)
+DEFINE_MEMBER_2(SdFlags, sd_flags)
+DEFINE_MEMBER_2(Flags, flags)
+DEFINE_MEMBER_2(NumaLevel, numa_level)
+DEFINE_MEMBER_2(Data, data)

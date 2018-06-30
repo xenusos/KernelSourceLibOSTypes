@@ -1,0 +1,8 @@
+DEFINE_MEMBER_2(Rb, vm_rb)
+DEFINE_MEMBER_2(Flags, vm_flags)
+DEFINE_MEMBER_2(Start, vm_start)
+DEFINE_MEMBER_2(End, vm_end)
+DEFINE_MEMBER_2(Top, vm_top)
+DEFINE_MEMBER_2(Offset, vm_pgoff)
+DEFINE_MEMBER_2(File, vm_file)
+DEFINE_MEMBER_2(Usage, vm_usage)

@@ -1,0 +1,7 @@
+DEFINE_MEMBER_2(Vendor, vendor)
+DEFINE_MEMBER_2(Device, device)
+DEFINE_MEMBER_2(SubVendor, subvendor)
+DEFINE_MEMBER_2(SubDevice, subdevice)
+DEFINE_MEMBER_2(Class, class)
+DEFINE_MEMBER_2(ClassMask, class_mask)
+DEFINE_MEMBER_2(DriverData, driver_data)

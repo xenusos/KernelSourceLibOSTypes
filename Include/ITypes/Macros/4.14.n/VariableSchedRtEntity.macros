@@ -1,0 +1,7 @@
+DEFINE_MEMBER_2(RunList, run_list)
+DEFINE_MEMBER_2(Timeout, timeout)
+DEFINE_MEMBER_2(WatchdogStamp, watchdog_stamp)
+DEFINE_MEMBER_2(TimeSlice, time_slice)
+DEFINE_MEMBER_2(OnRq, on_rq)
+DEFINE_MEMBER_2(OnList, on_list)
+DEFINE_MEMBER_2(Back, back)

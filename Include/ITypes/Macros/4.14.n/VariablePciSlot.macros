@@ -1,0 +1,5 @@
+DEFINE_MEMBER_2(Bus, bus)
+DEFINE_MEMBER_2(List, list)
+DEFINE_MEMBER_2(HotPlug, hotplug)
+DEFINE_MEMBER_2(Number, number)
+DEFINE_MEMBER_2(Kobj, kobj)

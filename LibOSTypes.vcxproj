@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include=".gitignore" />
+    <None Include="src\IType\0_init.macros" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Include\ITypes\IAddressSpace.hpp" />
+    <ClInclude Include="Include\ITypes\IAddressSpaceOperations.hpp" />
+    <ClInclude Include="Include\ITypes\IAtomicNotifierHead.hpp" />
+    <ClInclude Include="Include\ITypes\IAttributeGroup.hpp" />
+    <ClInclude Include="Include\ITypes\IBinAttribute.hpp" />
+    <ClInclude Include="Include\ITypes\IBlockDevice.hpp" />
+    <ClInclude Include="Include\ITypes\IBlockingNotifierHead.hpp" />
+    <ClInclude Include="Include\ITypes\IBusAttribute.hpp" />
+    <ClInclude Include="Include\ITypes\IBusType.hpp" />
+    <ClInclude Include="Include\ITypes\ICDev.hpp" />
+    <ClInclude Include="Include\ITypes\IClass.hpp" />
+    <ClInclude Include="Include\ITypes\IClassAttribute.hpp" />
+    <ClInclude Include="Include\ITypes\IClassAttributeString.hpp" />
+    <ClInclude Include="Include\ITypes\IClassDevIter.hpp" />
+    <ClInclude Include="Include\ITypes\IClassInterface.hpp" />
+    <ClInclude Include="Include\ITypes\ICoreState.hpp" />
+    <ClInclude Include="Include\ITypes\ICoreThread.hpp" />
+    <ClInclude Include="Include\ITypes\ICPUITimer.hpp" />
+    <ClInclude Include="Include\ITypes\ICred.hpp" />
+    <ClInclude Include="Include\ITypes\IDEntry.hpp" />
+    <ClInclude Include="Include\ITypes\IDEntryOperations.hpp" />
+    <ClInclude Include="Include\ITypes\IDEntryStat.hpp" />
+    <ClInclude Include="Include\ITypes\IDevExtAttribute.hpp" />
+    <ClInclude Include="Include\ITypes\IDevice.hpp" />
+    <ClInclude Include="Include\ITypes\IDeviceAttribute.hpp" />
+    <ClInclude Include="Include\ITypes\IDeviceDriver.hpp" />
+    <ClInclude Include="Include\ITypes\IDeviceLink.hpp" />
+    <ClInclude Include="Include\ITypes\IDeviceNode.hpp" />
+    <ClInclude Include="Include\ITypes\IDeviceType.hpp" />
+    <ClInclude Include="Include\ITypes\IDevLinksInfo.hpp" />
+    <ClInclude Include="Include\ITypes\IDevPmDomain.hpp" />
+    <ClInclude Include="Include\ITypes\IDevPmOps.hpp" />
+    <ClInclude Include="Include\ITypes\IDirContext.hpp" />
+    <ClInclude Include="Include\ITypes\IDmaMapOps.hpp" />
+    <ClInclude Include="Include\ITypes\IFAsyncStruct.hpp" />
+    <ClInclude Include="Include\ITypes\IFile.hpp" />
+    <ClInclude Include="Include\ITypes\IFileLock.hpp" />
+    <ClInclude Include="Include\ITypes\IFileLockOperations.hpp" />
+    <ClInclude Include="Include\ITypes\IFileName.hpp" />
+    <ClInclude Include="Include\ITypes\IFileOperations.hpp" />
+    <ClInclude Include="Include\ITypes\IFileRaState.hpp" />
+    <ClInclude Include="Include\ITypes\IFileSystemType.hpp" />
+    <ClInclude Include="Include\ITypes\IFOwnStruct.hpp" />
+    <ClInclude Include="Include\ITypes\IFsStruct.hpp" />
+    <ClInclude Include="Include\ITypes\IFWNodeEndpoint.hpp" />
+    <ClInclude Include="Include\ITypes\IFWNodeHandle.hpp" />
+    <ClInclude Include="Include\ITypes\IFWNodeOperations.hpp" />
+    <ClInclude Include="Include\ITypes\IGroupInfo.hpp" />
+    <ClInclude Include="Include\ITypes\IIAttr.hpp" />
+    <ClInclude Include="Include\ITypes\IINode.hpp" />
+    <ClInclude Include="Include\ITypes\IINodeOperations.hpp" />
+    <ClInclude Include="Include\ITypes\IIrqDomain.hpp" />
+    <ClInclude Include="Include\ITypes\IIRQFwspec.hpp" />
+    <ClInclude Include="Include\ITypes\IKey.hpp" />
+    <ClInclude Include="Include\ITypes\IKeyConstruction.hpp" />
+    <ClInclude Include="Include\ITypes\IKeyMatchData.hpp" />
+    <ClInclude Include="Include\ITypes\IKeyPreparsedPayload.hpp" />
+    <ClInclude Include="Include\ITypes\IKeyRingIndexKey.hpp" />
+    <ClInclude Include="Include\ITypes\IKeyType.hpp" />
+    <ClInclude Include="Include\ITypes\IKObject.hpp" />
+    <ClInclude Include="Include\ITypes\IKRef.hpp" />
+    <ClInclude Include="Include\ITypes\IKStat.hpp" />
+    <ClInclude Include="Include\ITypes\IKStatFS.hpp" />
+    <ClInclude Include="Include\ITypes\ILoadWeight.hpp" />
+    <ClInclude Include="Include\ITypes\ILockManager.hpp" />
+    <ClInclude Include="Include\ITypes\ILockManagerOperations.hpp" />
+    <ClInclude Include="Include\ITypes\IMMStruct.hpp" />
+    <ClInclude Include="Include\ITypes\IModKallsyms.hpp" />
+    <ClInclude Include="Include\ITypes\IModTreeNode.hpp" />
+    <ClInclude Include="Include\ITypes\IModule.hpp" />
+    <ClInclude Include="Include\ITypes\IModuleAttribute.hpp" />
+    <ClInclude Include="Include\ITypes\IModuleKobject.hpp" />
+    <ClInclude Include="Include\ITypes\IModuleLayout.hpp" />
+    <ClInclude Include="Include\ITypes\IModuleUse.hpp" />
+    <ClInclude Include="Include\ITypes\IModuleVersionAttribute.hpp" />
+    <ClInclude Include="Include\ITypes\IMutex.hpp" />
+    <ClInclude Include="Include\ITypes\IMutexWaiter.hpp" />
+    <ClInclude Include="Include\ITypes\INotifierBlock.hpp" />
+    <ClInclude Include="Include\ITypes\IPacctStruct.hpp" />
+    <ClInclude Include="Include\ITypes\IPage.hpp" />
+    <ClInclude Include="Include\ITypes\IPath.hpp" />
+    <ClInclude Include="Include\ITypes\IPciBus.hpp" />
+    <ClInclude Include="Include\ITypes\IPciBusRegion.hpp" />
+    <ClInclude Include="Include\ITypes\IPciCapSavedState.hpp" />
+    <ClInclude Include="Include\ITypes\IPciDev.hpp" />
+    <ClInclude Include="Include\ITypes\IPciDeviceId.hpp" />
+    <ClInclude Include="Include\ITypes\IPciDriver.hpp" />
+    <ClInclude Include="Include\ITypes\IPciDynids.hpp" />
+    <ClInclude Include="Include\ITypes\IPciErrorHandlers.hpp" />
+    <ClInclude Include="Include\ITypes\IPciHostBridge.hpp" />
+    <ClInclude Include="Include\ITypes\IPciOps.hpp" />
+    <ClInclude Include="Include\ITypes\IPciSlot.hpp" />
+    <ClInclude Include="Include\ITypes\IPid.hpp" />
+    <ClInclude Include="Include\ITypes\IPidLink.hpp" />
+    <ClInclude Include="Include\ITypes\IPidmap.hpp" />
+    <ClInclude Include="Include\ITypes\IPidNamespace.hpp" />
+    <ClInclude Include="Include\ITypes\IPmSubsysData.hpp" />
+    <ClInclude Include="Include\ITypes\IPrevCputime.hpp" />
+    <ClInclude Include="Include\ITypes\IQStr.hpp" />
+    <ClInclude Include="Include\ITypes\IRawNotifierHead.hpp" />
+    <ClInclude Include="Include\ITypes\IRefcountStruct.hpp" />
+    <ClInclude Include="Include\ITypes\IResource.hpp" />
+    <ClInclude Include="Include\ITypes\IRwSemaphore.hpp" />
+    <ClInclude Include="Include\ITypes\ISBWriters.hpp" />
+    <ClInclude Include="Include\ITypes\IScatterList.hpp" />
+    <ClInclude Include="Include\ITypes\ISchedAvg.hpp" />
+    <ClInclude Include="Include\ITypes\ISchedDlEntity.hpp" />
+    <ClInclude Include="Include\ITypes\ISchedDomain.hpp" />
+    <ClInclude Include="Include\ITypes\ISchedDomainShared.hpp" />
+    <ClInclude Include="Include\ITypes\ISchedDomainTopologyLevel.hpp" />
+    <ClInclude Include="Include\ITypes\ISchedEntity.hpp" />
+    <ClInclude Include="Include\ITypes\ISchedRtEntity.hpp" />
+    <ClInclude Include="Include\ITypes\ISchedStatistics.hpp" />
+    <ClInclude Include="Include\ITypes\ISDData.hpp" />
+    <ClInclude Include="Include\ITypes\ISeqFile.hpp" />
+    <ClInclude Include="Include\ITypes\ISeqOperations.hpp" />
+    <ClInclude Include="Include\ITypes\ISighandStruct.hpp" />
+    <ClInclude Include="Include\ITypes\ISignalStruct.hpp" />
+    <ClInclude Include="Include\ITypes\ISpinlockT.hpp" />
+    <ClInclude Include="Include\ITypes\ISrcuNotifierHead.hpp" />
+    <ClInclude Include="Include\ITypes\ISuperBlock.hpp" />
+    <ClInclude Include="Include\ITypes\ISuperOperations.hpp" />
+    <ClInclude Include="Include\ITypes\ISysfsOps.hpp" />
+    <ClInclude Include="Include\ITypes\ITask.hpp" />
+    <ClInclude Include="Include\ITypes\ITaskCputimeAtomic.hpp" />
+    <ClInclude Include="Include\ITypes\ITaskDelayInfo.hpp" />
+    <ClInclude Include="Include\ITypes\IThreadGroupCputimer.hpp" />
+    <ClInclude Include="Include\ITypes\IThreadInfo.hpp" />
+    <ClInclude Include="Include\ITypes\IThreadStruct.hpp" />
+    <ClInclude Include="Include\ITypes\IUpid.hpp" />
+    <ClInclude Include="Include\ITypes\IUrb.hpp" />
+    <ClInclude Include="Include\ITypes\IUsbAnchor.hpp" />
+    <ClInclude Include="Include\ITypes\IUsbBus.hpp" />
+    <ClInclude Include="Include\ITypes\IUsbConfigDescriptor.hpp" />
+    <ClInclude Include="Include\ITypes\IUsbDevice.hpp" />
+    <ClInclude Include="Include\ITypes\IUsbDeviceDriver.hpp" />
+    <ClInclude Include="Include\ITypes\IUsbDriver.hpp" />
+    <ClInclude Include="Include\ITypes\IUsbEndpointDescriptor.hpp" />
+    <ClInclude Include="Include\ITypes\IUsbHostBos.hpp" />
+    <ClInclude Include="Include\ITypes\IUsbHostConfig.hpp" />
+    <ClInclude Include="Include\ITypes\IUsbHostEndpoint.hpp" />
+    <ClInclude Include="Include\ITypes\IUsbHostInterface.hpp" />
+    <ClInclude Include="Include\ITypes\IUsbInterface.hpp" />
+    <ClInclude Include="Include\ITypes\IUsbInterfaceAssocDescriptor.hpp" />
+    <ClInclude Include="Include\ITypes\IUsbInterfaceCache.hpp" />
+    <ClInclude Include="Include\ITypes\IUsbIsoPacketDescriptor.hpp" />
+    <ClInclude Include="Include\ITypes\IUsbSgRequest.hpp" />
+    <ClInclude Include="Include\ITypes\IUsbSsEpCompDescriptor.hpp" />
+    <ClInclude Include="Include\ITypes\IUsbSspIsocEpCompDescriptor.hpp" />
+    <ClInclude Include="Include\ITypes\IUserStruct.hpp" />
+    <ClInclude Include="Include\ITypes\IVFSMount.hpp" />
+    <ClInclude Include="Include\ITypes\IVMAreaStruct.hpp" />
+    <ClInclude Include="Include\ITypes\IVMFault.hpp" />
+    <ClInclude Include="Include\ITypes\IVMOperationsStruct.hpp" />
+    <ClInclude Include="Include\ITypes\IVMRegion.hpp" />
+    <ClInclude Include="Include\ITypes\IVMSpecialMapping.hpp" />
+    <ClInclude Include="Include\ITypes\IVTime.hpp" />
+    <ClInclude Include="Include\ITypes\IWaitQueueEntry.hpp" />
+    <ClInclude Include="Include\ITypes\IWakeQNode.hpp" />
+    <ClInclude Include="Include\libtypes.hpp" />
+    <ClInclude Include="Include\VarInt\VarTypeRef.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\IType\IAddressSpace.cpp" />
+    <ClCompile Include="src\IType\IAddressSpaceOperations.cpp" />
+    <ClCompile Include="src\IType\IAtomicNotifierHead.cpp" />
+    <ClCompile Include="src\IType\IAttributeGroup.cpp" />
+    <ClCompile Include="src\IType\IBinAttribute.cpp" />
+    <ClCompile Include="src\IType\IBlockDevice.cpp" />
+    <ClCompile Include="src\IType\IBlockingNotifierHead.cpp" />
+    <ClCompile Include="src\IType\IBusAttribute.cpp" />
+    <ClCompile Include="src\IType\IBusType.cpp" />
+    <ClCompile Include="src\IType\ICDev.cpp" />
+    <ClCompile Include="src\IType\IClass.cpp" />
+    <ClCompile Include="src\IType\IClassAttribute.cpp" />
+    <ClCompile Include="src\IType\IClassAttributeString.cpp" />
+    <ClCompile Include="src\IType\IClassDevIter.cpp" />
+    <ClCompile Include="src\IType\IClassInterface.cpp" />
+    <ClCompile Include="src\IType\ICoreState.cpp" />
+    <ClCompile Include="src\IType\ICoreThread.cpp" />
+    <ClCompile Include="src\IType\ICPUITimer.cpp" />
+    <ClCompile Include="src\IType\ICred.cpp" />
+    <ClCompile Include="src\IType\IDEntry.cpp" />
+    <ClCompile Include="src\IType\IDEntryOperations.cpp" />
+    <ClCompile Include="src\IType\IDEntryStat.cpp" />
+    <ClCompile Include="src\IType\IDevExtAttribute.cpp" />
+    <ClCompile Include="src\IType\IDevice.cpp" />
+    <ClCompile Include="src\IType\IDeviceAttribute.cpp" />
+    <ClCompile Include="src\IType\IDeviceDriver.cpp" />
+    <ClCompile Include="src\IType\IDeviceLink.cpp" />
+    <ClCompile Include="src\IType\IDeviceNode.cpp" />
+    <ClCompile Include="src\IType\IDeviceType.cpp" />
+    <ClCompile Include="src\IType\IDevLinksInfo.cpp" />
+    <ClCompile Include="src\IType\IDevPmDomain.cpp" />
+    <ClCompile Include="src\IType\IDevPmOps.cpp" />
+    <ClCompile Include="src\IType\IDirContext.cpp" />
+    <ClCompile Include="src\IType\IDmaMapOps.cpp" />
+    <ClCompile Include="src\IType\IFAsyncStruct.cpp" />
+    <ClCompile Include="src\IType\IFile.cpp" />
+    <ClCompile Include="src\IType\IFileLock.cpp" />
+    <ClCompile Include="src\IType\IFileLockOperations.cpp" />
+    <ClCompile Include="src\IType\IFileName.cpp" />
+    <ClCompile Include="src\IType\IFileOperations.cpp" />
+    <ClCompile Include="src\IType\IFileRaState.cpp" />
+    <ClCompile Include="src\IType\IFileSystemType.cpp" />
+    <ClCompile Include="src\IType\IFOwnStruct.cpp" />
+    <ClCompile Include="src\IType\IFsStruct.cpp" />
+    <ClCompile Include="src\IType\IFWNodeEndpoint.cpp" />
+    <ClCompile Include="src\IType\IFWNodeHandle.cpp" />
+    <ClCompile Include="src\IType\IFWNodeOperations.cpp" />
+    <ClCompile Include="src\IType\IGroupInfo.cpp" />
+    <ClCompile Include="src\IType\IIAttr.cpp" />
+    <ClCompile Include="src\IType\IINode.cpp" />
+    <ClCompile Include="src\IType\IINodeOperations.cpp" />
+    <ClCompile Include="src\IType\IIrqDomain.cpp" />
+    <ClCompile Include="src\IType\IIRQFwspec.cpp" />
+    <ClCompile Include="src\IType\IKey.cpp" />
+    <ClCompile Include="src\IType\IKeyConstruction.cpp" />
+    <ClCompile Include="src\IType\IKeyMatchData.cpp" />
+    <ClCompile Include="src\IType\IKeyPreparsedPayload.cpp" />
+    <ClCompile Include="src\IType\IKeyRingIndexKey.cpp" />
+    <ClCompile Include="src\IType\IKeyType.cpp" />
+    <ClCompile Include="src\IType\IKObject.cpp" />
+    <ClCompile Include="src\IType\IKRef.cpp" />
+    <ClCompile Include="src\IType\IKStat.cpp" />
+    <ClCompile Include="src\IType\IKStatFS.cpp" />
+    <ClCompile Include="src\IType\ILoadWeight.cpp" />
+    <ClCompile Include="src\IType\ILockManager.cpp" />
+    <ClCompile Include="src\IType\ILockManagerOperations.cpp" />
+    <ClCompile Include="src\IType\IMMStruct.cpp" />
+    <ClCompile Include="src\IType\IModKallsyms.cpp" />
+    <ClCompile Include="src\IType\IModTreeNode.cpp" />
+    <ClCompile Include="src\IType\IModule.cpp" />
+    <ClCompile Include="src\IType\IModuleAttribute.cpp" />
+    <ClCompile Include="src\IType\IModuleKobject.cpp" />
+    <ClCompile Include="src\IType\IModuleLayout.cpp" />
+    <ClCompile Include="src\IType\IModuleUse.cpp" />
+    <ClCompile Include="src\IType\IModuleVersionAttribute.cpp" />
+    <ClCompile Include="src\IType\IMutex.cpp" />
+    <ClCompile Include="src\IType\IMutexWaiter.cpp" />
+    <ClCompile Include="src\IType\INotifierBlock.cpp" />
+    <ClCompile Include="src\IType\IPacctStruct.cpp" />
+    <ClCompile Include="src\IType\IPage.cpp" />
+    <ClCompile Include="src\IType\IPath.cpp" />
+    <ClCompile Include="src\IType\IPciBus.cpp" />
+    <ClCompile Include="src\IType\IPciBusRegion.cpp" />
+    <ClCompile Include="src\IType\IPciCapSavedState.cpp" />
+    <ClCompile Include="src\IType\IPciDev.cpp" />
+    <ClCompile Include="src\IType\IPciDeviceId.cpp" />
+    <ClCompile Include="src\IType\IPciDriver.cpp" />
+    <ClCompile Include="src\IType\IPciDynids.cpp" />
+    <ClCompile Include="src\IType\IPciErrorHandlers.cpp" />
+    <ClCompile Include="src\IType\IPciHostBridge.cpp" />
+    <ClCompile Include="src\IType\IPciOps.cpp" />
+    <ClCompile Include="src\IType\IPciSlot.cpp" />
+    <ClCompile Include="src\IType\IPid.cpp" />
+    <ClCompile Include="src\IType\IPidLink.cpp" />
+    <ClCompile Include="src\IType\IPidmap.cpp" />
+    <ClCompile Include="src\IType\IPidNamespace.cpp" />
+    <ClCompile Include="src\IType\IPmSubsysData.cpp" />
+    <ClCompile Include="src\IType\IPrevCputime.cpp" />
+    <ClCompile Include="src\IType\IQStr.cpp" />
+    <ClCompile Include="src\IType\IRawNotifierHead.cpp" />
+    <ClCompile Include="src\IType\IRefcountStruct.cpp" />
+    <ClCompile Include="src\IType\IResource.cpp" />
+    <ClCompile Include="src\IType\IRwSemaphore.cpp" />
+    <ClCompile Include="src\IType\ISBWriters.cpp" />
+    <ClCompile Include="src\IType\IScatterList.cpp" />
+    <ClCompile Include="src\IType\ISchedAvg.cpp" />
+    <ClCompile Include="src\IType\ISchedDlEntity.cpp" />
+    <ClCompile Include="src\IType\ISchedDomain.cpp" />
+    <ClCompile Include="src\IType\ISchedDomainShared.cpp" />
+    <ClCompile Include="src\IType\ISchedDomainTopologyLevel.cpp" />
+    <ClCompile Include="src\IType\ISchedEntity.cpp" />
+    <ClCompile Include="src\IType\ISchedRtEntity.cpp" />
+    <ClCompile Include="src\IType\ISchedStatistics.cpp" />
+    <ClCompile Include="src\IType\ISDData.cpp" />
+    <ClCompile Include="src\IType\ISeqFile.cpp" />
+    <ClCompile Include="src\IType\ISeqOperations.cpp" />
+    <ClCompile Include="src\IType\ISighandStruct.cpp" />
+    <ClCompile Include="src\IType\ISignalStruct.cpp" />
+    <ClCompile Include="src\IType\ISpinlockT.cpp" />
+    <ClCompile Include="src\IType\ISrcuNotifierHead.cpp" />
+    <ClCompile Include="src\IType\ISuperBlock.cpp" />
+    <ClCompile Include="src\IType\ISuperOperations.cpp" />
+    <ClCompile Include="src\IType\ISysfsOps.cpp" />
+    <ClCompile Include="src\IType\ITask.cpp" />
+    <ClCompile Include="src\IType\ITaskCputimeAtomic.cpp" />
+    <ClCompile Include="src\IType\ITaskDelayInfo.cpp" />
+    <ClCompile Include="src\IType\IThreadGroupCputimer.cpp" />
+    <ClCompile Include="src\IType\IThreadInfo.cpp" />
+    <ClCompile Include="src\IType\IUpid.cpp" />
+    <ClCompile Include="src\IType\IUrb.cpp" />
+    <ClCompile Include="src\IType\IUsbAnchor.cpp" />
+    <ClCompile Include="src\IType\IUsbBus.cpp" />
+    <ClCompile Include="src\IType\IUsbConfigDescriptor.cpp" />
+    <ClCompile Include="src\IType\IUsbDevice.cpp" />
+    <ClCompile Include="src\IType\IUsbDeviceDriver.cpp" />
+    <ClCompile Include="src\IType\IUsbDriver.cpp" />
+    <ClCompile Include="src\IType\IUsbEndpointDescriptor.cpp" />
+    <ClCompile Include="src\IType\IUsbHostBos.cpp" />
+    <ClCompile Include="src\IType\IUsbHostConfig.cpp" />
+    <ClCompile Include="src\IType\IUsbHostEndpoint.cpp" />
+    <ClCompile Include="src\IType\IUsbHostInterface.cpp" />
+    <ClCompile Include="src\IType\IUsbInterface.cpp" />
+    <ClCompile Include="src\IType\IUsbInterfaceAssocDescriptor.cpp" />
+    <ClCompile Include="src\IType\IUsbInterfaceCache.cpp" />
+    <ClCompile Include="src\IType\IUsbIsoPacketDescriptor.cpp" />
+    <ClCompile Include="src\IType\IUsbSgRequest.cpp" />
+    <ClCompile Include="src\IType\IUsbSsEpCompDescriptor.cpp" />
+    <ClCompile Include="src\IType\IUsbSspIsocEpCompDescriptor.cpp" />
+    <ClCompile Include="src\IType\IUserStruct.cpp" />
+    <ClCompile Include="src\IType\IVFSMount.cpp" />
+    <ClCompile Include="src\IType\IVMAreaStruct.cpp" />
+    <ClCompile Include="src\IType\IVMFault.cpp" />
+    <ClCompile Include="src\IType\IVMOperationsStruct.cpp" />
+    <ClCompile Include="src\IType\IVMRegion.cpp" />
+    <ClCompile Include="src\IType\IVMSpecialMapping.cpp" />
+    <ClCompile Include="src\IType\IVTime.cpp" />
+    <ClCompile Include="src\IType\IWaitQueueEntry.cpp" />
+    <ClCompile Include="src\IType\IWakeQNode.cpp" />
+    <ClCompile Include="src\VarInt\VarTypeRef.cpp" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{E2103EDB-133A-42AD-B125-94C8F2B670AC}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>LibOSTypes</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>WindowsKernelModeDriver10.0</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>..\..\Linking\</OutDir>
+    <TargetName>LibOSTypes</TargetName>
+    <EnableInf2cat>false</EnableInf2cat>
+    <IntDir>..\..\Objects\LibOSTypes\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <SDLCheck>
+      </SDLCheck>
+      <PreprocessorDefinitions>LIBLINUX_EXPORTS;%(PreprocessorDefinitions);XENUS_BUILD</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>..\CommonKernel\Headers\;Include\;..\LibOS\Include\</AdditionalIncludeDirectories>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <TreatWarningAsError>false</TreatWarningAsError>
+      <ControlFlowGuard>false</ControlFlowGuard>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <AdditionalOptions>/MP4 %(AdditionalOptions)</AdditionalOptions>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <ProgramDataBaseFileName>../../Symbols/$(ProjectName).pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>Kernel.lib</AdditionalDependencies>
+      <IgnoreAllDefaultLibraries>true</IgnoreAllDefaultLibraries>
+    </Link>
+    <Lib>
+      <AdditionalLibraryDirectories>..\..\Linking\</AdditionalLibraryDirectories>
+      <AdditionalDependencies>
+      </AdditionalDependencies>
+    </Lib>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

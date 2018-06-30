@@ -1,0 +1,6 @@
+DEFINE_MEMBER_2(ErrorDetected, error_detected)
+DEFINE_MEMBER_2(MMIoEnabled, mmio_enabled)
+DEFINE_MEMBER_2(SlotReset, slot_reset)
+DEFINE_MEMBER_2(ResetPrepare, reset_prepare)
+DEFINE_MEMBER_2(ResetDone, reset_done)
+DEFINE_MEMBER_2(Resume, resume)

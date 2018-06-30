@@ -1,0 +1,5 @@
+DEFINE_MEMBER_2(Desc, desc)
+DEFINE_MEMBER_2(ExtraLen, extralen)
+DEFINE_MEMBER_2(Extra, extra)
+DEFINE_MEMBER_2(Endpoint, endpoint)
+DEFINE_MEMBER_2(String, string)

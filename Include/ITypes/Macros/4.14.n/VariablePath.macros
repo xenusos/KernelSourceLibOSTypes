@@ -1,0 +1,2 @@
+DEFINE_MEMBER_2(Mount, mnt)
+DEFINE_MEMBER_2(DEntry, dentry)

@@ -1,0 +1,7 @@
+DEFINE_MEMBER_2(Name, name)
+DEFINE_MEMBER_2(Entry, entry)
+DEFINE_MEMBER_2(Parent, parent)
+DEFINE_MEMBER_2(KSet, kset)
+DEFINE_MEMBER_2(KType, ktype)
+DEFINE_MEMBER_2(Sd, sd)
+DEFINE_MEMBER_2(KRef, kref)

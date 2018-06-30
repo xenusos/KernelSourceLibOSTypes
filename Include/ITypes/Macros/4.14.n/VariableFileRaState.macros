@@ -1,0 +1,6 @@
+DEFINE_MEMBER_2(Start, start)
+DEFINE_MEMBER_2(Size, size)
+DEFINE_MEMBER_2(AsyncSize, async_size)
+DEFINE_MEMBER_2(RaPages, ra_pages)
+DEFINE_MEMBER_2(MmapMiss, mmap_miss)
+DEFINE_MEMBER_2(PrevPos, prev_pos)

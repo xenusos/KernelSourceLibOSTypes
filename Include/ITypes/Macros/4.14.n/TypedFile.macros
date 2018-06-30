@@ -1,0 +1,6 @@
+
+DEFINE_TYPED_MEMBER_2(int64, loff_t, f_pos, Position)
+DEFINE_TYPED_MEMBER_2(uint16, umode_t, f_mode, Mode)
+DEFINE_TYPED_MEMBER_2(uint64, atomic64_int_t, f_count, Count)
+DEFINE_TYPED_MEMBER_2(uint32, uint32_t, f_flags, Flags)
+DEFINE_TYPED_MEMBER_2(uint64, uint64_t, f_version, Version)

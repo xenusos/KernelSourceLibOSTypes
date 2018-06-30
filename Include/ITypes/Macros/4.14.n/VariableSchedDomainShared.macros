@@ -1,0 +1,3 @@
+DEFINE_MEMBER_2(Ref, ref)
+DEFINE_MEMBER_2(NRBusyCpus, nr_busy_cpus)
+DEFINE_MEMBER_2(HasIdleCores, has_idle_cores)

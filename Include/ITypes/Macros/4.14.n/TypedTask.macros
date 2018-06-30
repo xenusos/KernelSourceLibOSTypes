@@ -1,0 +1,28 @@
+DEFINE_TYPED_MEMBER_2(uint32, uint32_t, wakee_flips, WakeeFlips)
+DEFINE_TYPED_MEMBER_2(uint32, uint32_t, wakee_flip_decay_ts, WakeeFlipDecayTs)
+
+DEFINE_TYPED_MEMBER_2(int32, int32_t, on_cpu, OnCPU)
+
+DEFINE_TYPED_MEMBER_2(uint32, uint32_t, cpu, CPU)
+
+//DEFINE_TYPED_MEMBER(int32, int32_t, recent_used_cpu)
+DEFINE_TYPED_MEMBER_2(int32, int32_t, wake_cpu, WakeCPU)
+DEFINE_TYPED_MEMBER_2(int32, int32_t, on_rq, OnRW)
+DEFINE_TYPED_MEMBER_2(int32, int32_t, prio, PRIO)
+DEFINE_TYPED_MEMBER_2(int32, int32_t, static_prio, StaticPRIO)
+DEFINE_TYPED_MEMBER_2(int32, int32_t, normal_prio, NormalPRIO)
+DEFINE_TYPED_MEMBER_2(int32, int32_t, rt_priority, RTPriority)
+                   
+DEFINE_TYPED_MEMBER_2(int32, int32_t, nr_cpus_allowed, NRCPUsAllowed)
+                   
+DEFINE_TYPED_MEMBER_2(uint32, uint32_t, policy, Policy)
+                   
+DEFINE_TYPED_MEMBER_2(int32, int32_t, exit_state, ExitState)
+DEFINE_TYPED_MEMBER_2(int32, int32_t, exit_code, ExitCode)
+DEFINE_TYPED_MEMBER_2(int32, int32_t, exit_signal, ExitSignal)
+DEFINE_TYPED_MEMBER_2(int32, int32_t, pdeath_signal, PDeathSignal)
+DEFINE_TYPED_MEMBER_2(int32, int32_t, jobctl, JobCTL)
+DEFINE_TYPED_MEMBER_2(int32, int32_t, personality, Personality)
+                   
+DEFINE_TYPED_MEMBER_2(uint64, uint64_t, start_time, StartTime)
+DEFINE_TYPED_MEMBER_2(uint64, uint64_t, real_start_time, RealStartTime)

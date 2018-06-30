@@ -1,0 +1,3 @@
+DEFINE_MEMBER_2(Dumper, dumper)
+DEFINE_MEMBER_2(NrThreads, nr_threads)
+DEFINE_MEMBER_2(Startup, startup)

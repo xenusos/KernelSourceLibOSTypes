@@ -1,0 +1,6 @@
+DEFINE_MEMBER_2(SeqCount, seqcount)
+DEFINE_MEMBER_2(StartTime, starttime)
+DEFINE_MEMBER_2(State, state)
+DEFINE_MEMBER_2(UTime, utime)
+DEFINE_MEMBER_2(STime, stime)
+DEFINE_MEMBER_2(GTime, gtime)

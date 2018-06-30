@@ -1,0 +1,2 @@
+DEFINE_MEMBER_2(Key, key)
+DEFINE_MEMBER_2(AuthKey, authkey)

@@ -1,0 +1,5 @@
+DEFINE_MEMBER_2(NrDentry, nr_dentry)
+DEFINE_MEMBER_2(NrUnused, nr_unused)
+DEFINE_MEMBER_2(AgeLimit, age_limit)
+DEFINE_MEMBER_2(WantPages, want_pages)
+DEFINE_MEMBER_2(Dummy, dummy)

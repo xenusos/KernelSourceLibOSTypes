@@ -1,0 +1,5 @@
+DEFINE_MEMBER_2(Count, count)
+DEFINE_MEMBER_2(Level, level)
+DEFINE_MEMBER_2(Tasks, tasks)
+DEFINE_MEMBER_2(Rcu, rcu)
+DEFINE_MEMBER_2(Numbers, numbers)

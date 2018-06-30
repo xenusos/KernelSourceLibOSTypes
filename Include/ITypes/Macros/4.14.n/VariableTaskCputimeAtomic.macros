@@ -1,0 +1,2 @@
+DEFINE_MEMBER_2(STime, stime)
+DEFINE_MEMBER_2(SumExecRuntime, sum_exec_runtime)

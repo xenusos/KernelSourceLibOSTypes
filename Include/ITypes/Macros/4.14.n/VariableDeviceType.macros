@@ -1,0 +1,6 @@
+DEFINE_MEMBER_2(Name, name)
+DEFINE_MEMBER_2(Groups, groups)
+DEFINE_MEMBER_2(UEvent, uevent)
+DEFINE_MEMBER_2(DevNode, devnode)
+DEFINE_MEMBER_2(Release, release)
+DEFINE_MEMBER_2(Pm, pm)

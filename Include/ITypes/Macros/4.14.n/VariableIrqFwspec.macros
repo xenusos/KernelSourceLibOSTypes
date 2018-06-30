@@ -1,0 +1,3 @@
+DEFINE_MEMBER_2(FWNode, fwnode)
+DEFINE_MEMBER_2(ParamCount, param_count)
+DEFINE_MEMBER_2(Param, param)

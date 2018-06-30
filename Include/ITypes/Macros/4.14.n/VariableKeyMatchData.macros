@@ -1,0 +1,4 @@
+DEFINE_MEMBER_2(Cmp, cmp)
+DEFINE_MEMBER_2(RawData, raw_data)
+DEFINE_MEMBER_2(Preparsed, preparsed)
+DEFINE_MEMBER_2(LookupType, lookup_type)

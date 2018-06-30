@@ -1,0 +1,5 @@
+DEFINE_MEMBER_2(Base, base)
+DEFINE_MEMBER_2(Size, size)
+DEFINE_MEMBER_2(TextSize, text_size)
+DEFINE_MEMBER_2(RoSize, ro_size)
+DEFINE_MEMBER_2(RoAfterInitSize, ro_after_init_size)

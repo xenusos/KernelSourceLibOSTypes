@@ -1,0 +1,5 @@
+#define DEFINE_MEMBER(nullo, name) VarTypeRef get_var_ ## name(); 
+#define DEFINE_TYPED_MEMBER(nullo, type, name) type get_ ## name(); void set_ ## name(type value);
+
+#define DEFINE_MEMBER_2(MSConvention, name) VarTypeRef GetVar ## MSConvention(); 
+#define DEFINE_TYPED_MEMBER_2(nullo, type, name, MSConvention) type Get ## MSConvention(); void Set ## MSConvention(type value);

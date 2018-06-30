@@ -1,0 +1,6 @@
+DEFINE_MEMBER_2(Attr, attr)
+DEFINE_MEMBER_2(Show, show)
+DEFINE_MEMBER_2(Store, store)
+DEFINE_MEMBER_2(Setup, setup)
+DEFINE_MEMBER_2(Test, test)
+DEFINE_MEMBER_2(Free, free)

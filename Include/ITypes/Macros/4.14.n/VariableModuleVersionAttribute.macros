@@ -1,0 +1,3 @@
+DEFINE_MEMBER_2(MAttr, mattr)
+DEFINE_MEMBER_2(ModuleName, module_name)
+DEFINE_MEMBER_2(Version, version)

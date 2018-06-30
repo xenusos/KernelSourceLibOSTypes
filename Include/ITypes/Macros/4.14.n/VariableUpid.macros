@@ -1,0 +1,3 @@
+DEFINE_MEMBER_2(Nr, nr)
+DEFINE_MEMBER_2(Ns, ns)
+DEFINE_MEMBER_2(PIDChain, pid_chain)

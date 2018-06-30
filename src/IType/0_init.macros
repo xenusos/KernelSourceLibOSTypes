@@ -1,0 +1,16 @@
+// Ye, this ugly mess is going in its own file :D
+
+/**************/#define WTF_MSVC(fuckmsvc, name)	VarTypeRef CFG_DEFINE_CLASS ##::get_var_ ## name()			{ return PS_TO_VARTYPE(CFG_DEFINE_DATA, fuckmsvc, name);}
+#define WTF_MSVC_2(MSConvention, fuckmsvc, name)	VarTypeRef CFG_DEFINE_CLASS ##::GetVar ## MSConvention()	{ return PS_TO_VARTYPE(CFG_DEFINE_DATA, fuckmsvc, name);}
+
+/*****/#define FUCK_MY_LIFE(ps_type_fname, name, ps_type) ps_type_fname ## _set_ ## name ## _ ## ps_type(CFG_DEFINE_DATA, value);
+#define FUCK_MSVC_IS_BROKEN(ps_type_fname, name, ps_type) ps_type_fname ## _get_ ## name ## _ ## ps_type(CFG_DEFINE_DATA);
+
+/**************/#define _FUCK_MSVC_IS_BROKEN(ps_type_fname, ps_type, type, name) type  CFG_DEFINE_CLASS ## :: get_ ## name()			{ return FUCK_MSVC_IS_BROKEN(ps_type_fname, name,  ps_type); }  void  CFG_DEFINE_CLASS ## :: set_ ## name(type value)			{ return FUCK_MY_LIFE(ps_type_fname, name,  ps_type); } 
+#define _FUCK_MSVC_IS_BROKEN_2(MSConvention, ps_type_fname, ps_type, type, name) type  CFG_DEFINE_CLASS ## :: Get ## MSConvention()	    { return FUCK_MSVC_IS_BROKEN(ps_type_fname, name,  ps_type); }  void  CFG_DEFINE_CLASS ## :: Set ## MSConvention(type value)	{ return FUCK_MY_LIFE(ps_type_fname, name,  ps_type); } 
+
+/**************/#define DEFINE_TYPED_MEMBER(ps_type, type, name)	_FUCK_MSVC_IS_BROKEN(				 CFG_DEFINE_PS_TYPE_NAME, ps_type, type, name);
+#define DEFINE_TYPED_MEMBER_2(ps_type, type, name, MSConvention)	_FUCK_MSVC_IS_BROKEN_2(MSConvention, CFG_DEFINE_PS_TYPE_NAME, ps_type, type, name);
+
+#define DEFINE_MEMBER(nullo, name)				WTF_MSVC(CFG_DEFINE_PS_TYPE_NAME, name) // nullo parameter is a result of copypasta from _generic_[..].h
+#define DEFINE_MEMBER_2(MSConvention, name)		WTF_MSVC_2(MSConvention, CFG_DEFINE_PS_TYPE_NAME, name)

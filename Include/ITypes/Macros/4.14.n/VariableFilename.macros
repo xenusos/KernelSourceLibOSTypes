@@ -1,0 +1,4 @@
+DEFINE_MEMBER_2(Name, name)
+DEFINE_MEMBER_2(UPtr, uptr)
+DEFINE_MEMBER_2(AName, aname)
+DEFINE_MEMBER_2(RefCnt, refcnt)

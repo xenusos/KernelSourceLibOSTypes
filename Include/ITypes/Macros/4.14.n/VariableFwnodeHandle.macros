@@ -1,0 +1,2 @@
+DEFINE_MEMBER_2(Secondary, secondary)
+DEFINE_MEMBER_2(Ops, ops)

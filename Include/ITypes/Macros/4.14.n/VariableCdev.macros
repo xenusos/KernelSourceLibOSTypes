@@ -1,0 +1,5 @@
+DEFINE_MEMBER_2(KObj, kobj)
+DEFINE_MEMBER_2(Opsj, opsj)
+DEFINE_MEMBER_2(List, list)
+DEFINE_MEMBER_2(Dev, dev)
+DEFINE_MEMBER_2(Count, count)
