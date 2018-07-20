@@ -2,6 +2,7 @@
     Purpose: 
     Author: Reece W. 
     License: All Rights Reserved J. Reece Wilson
+	Depends on: IThreadStruct.h
 */  
 #pragma once
 #include "Macros\0_init.macros"
@@ -29,11 +30,11 @@ public:
 	cred_k GetRealCred();
 	cred_k GetCred();
 
-	// Real functions start: 
+	IThreadStruct GetThread();
 
 	uint32_t GetAddressLimit();
 	void SetAddressLimitUnsafe(uint32_t fs);
-	uint32_t SwapAddressLimit(uint32_t fs); // exchange function
+	uint32_t SwapAddressLimit(uint32_t fs);
 
 	bool operator==(const ITask& other) const;
 };

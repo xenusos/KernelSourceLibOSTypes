@@ -5,9 +5,6 @@
 */  
 #pragma once
 
-XENUX_BEGIN_C
-#include <x_linux.h>
-XENUS_END_C
 
 #include <VarInt/VarTypeRef.hpp>
 

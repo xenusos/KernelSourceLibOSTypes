@@ -6,6 +6,7 @@
 #include <xenus_lazy.h>
 #include <libtypes.hpp>
 
+#include <ITypes/IThreadStruct.hpp>
 #include <ITypes/ITask.hpp>
 
 #define CFG_DEFINE_PS_TYPE_NAME task
@@ -36,37 +37,48 @@ task_k ITask::GetLastWakee()
 
 task_k ITask::GetRealParent()
 {
-	return (task_k*)task_get_last_wakee_uint64(_task);
+	return (task_k*)task_get_real_parent_uint64(_task);
 }
 
 task_k ITask::GetParent()
 {
-	return (task_k*)task_get_last_wakee_uint64(_task);
+	return (task_k*)task_get_parent_uint64(_task);
 }
 
 cred_k ITask::GetRealCred()
 {
-	return (cred_k*)task_get_last_wakee_uint64(_task);
+	return (cred_k*)task_get_real_cred_uint64(_task);
 }
 
 cred_k ITask::GetCred()
 {
-	return (cred_k)task_get_last_wakee_uint64(_task);
+	return (cred_k)task_get_cred_uint64(_task);
+}
+
+IThreadStruct ITask::GetThread()
+{
+	return IThreadStruct(task_get_thread_info(_task));
 }
 
 uint32_t ITask::GetAddressLimit()
 {
-	return -1;
+	IThreadStruct thread(task_get_thread_info(_task));
+	return (uint32_t) thread.GetVarAddrLimit().GetUInt();
 }
 
 void ITask::SetAddressLimitUnsafe(uint32_t fs)
 {
-
+	IThreadStruct thread(task_get_thread_info(_task));
+	thread.GetVarAddrLimit().SetUInt(fs);
 }
 
 uint32_t ITask::SwapAddressLimit(uint32_t fs)
 {
-	return -1;
+	IThreadStruct thread(task_get_thread_info(_task));
+	uint32_t ret;
+	ret = (uint32_t)thread.GetVarAddrLimit().GetUInt();
+	thread.GetVarAddrLimit().SetUInt(fs);
+	return ret;
 }
 
 bool ITask::operator==(const ITask& other) const
