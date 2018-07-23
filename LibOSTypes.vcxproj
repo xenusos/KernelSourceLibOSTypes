@@ -378,7 +378,7 @@
       <TreatWarningAsError>false</TreatWarningAsError>
       <ControlFlowGuard>false</ControlFlowGuard>
       <CompileAs>CompileAsCpp</CompileAs>
-      <AdditionalOptions>/MP4 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions>/MP4 /kernel %(AdditionalOptions)</AdditionalOptions>
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
       <ProgramDataBaseFileName>../../Symbols/$(ProjectName).pdb</ProgramDataBaseFileName>
     </ClCompile>
