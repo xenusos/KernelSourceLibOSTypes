@@ -15,6 +15,9 @@ public:
 	IPath();
 	IPath(path_k path);
 
+#include "Macros/VariablePath.macros"
+#include "Macros/TypedPath.macros"
+
 	vfsmount_k	GetMount();
 	dentry_k	GetDEntry();
 

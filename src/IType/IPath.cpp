@@ -13,6 +13,9 @@
 
 #include "0_init.macros"
 
+#include <ITypes/Macros/VariablePath.macros>
+#include <ITypes/Macros/TypedPath.macros>
+
 IPath::IPath()
 {
 
