@@ -30,7 +30,7 @@ public:
 	cred_k GetRealCred();
 	cred_k GetCred();
 
-	IThreadStruct GetThread();
+	IThreadStruct GetThreadStruct();
 
 	uint32_t GetAddressLimit();
 	void SetAddressLimitUnsafe(uint32_t fs);

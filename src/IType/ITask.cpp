@@ -55,7 +55,7 @@ cred_k ITask::GetCred()
 	return (cred_k)task_get_cred_uint64(_task);
 }
 
-IThreadStruct ITask::GetThread()
+IThreadStruct ITask::GetThreadStruct()
 {
 	return IThreadStruct(task_get_thread_info(_task));
 }

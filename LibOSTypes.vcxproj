@@ -302,6 +302,7 @@
     <ClCompile Include="src\IType\ITaskDelayInfo.cpp" />
     <ClCompile Include="src\IType\IThreadGroupCputimer.cpp" />
     <ClCompile Include="src\IType\IThreadInfo.cpp" />
+    <ClCompile Include="src\IType\IThreadStruct.cpp" />
     <ClCompile Include="src\IType\IUpid.cpp" />
     <ClCompile Include="src\IType\IUrb.cpp" />
     <ClCompile Include="src\IType\IUsbAnchor.cpp" />
@@ -339,7 +340,7 @@
     <ProjectGuid>{E2103EDB-133A-42AD-B125-94C8F2B670AC}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>LibOSTypes</RootNamespace>
-    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development|x64'" Label="Configuration">
@@ -350,6 +351,7 @@
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
   <ImportGroup Label="ExtensionSettings">
+    <Import Project="$(VCTargetsPath)\BuildCustomizations\masm.props" />
   </ImportGroup>
   <ImportGroup Label="Shared">
   </ImportGroup>
@@ -381,6 +383,7 @@
       <AdditionalOptions>/MP4 /kernel %(AdditionalOptions)</AdditionalOptions>
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
       <ProgramDataBaseFileName>../../Symbols/$(ProjectName).pdb</ProgramDataBaseFileName>
+      <SupportJustMyCode>false</SupportJustMyCode>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -396,5 +399,6 @@
   </ItemDefinitionGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
+    <Import Project="$(VCTargetsPath)\BuildCustomizations\masm.targets" />
   </ImportGroup>
 </Project>
