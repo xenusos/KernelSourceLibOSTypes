@@ -1,3 +1,4 @@
+DEFINE_MEMBER_2(Xenus, xenus)
 DEFINE_MEMBER_2(ThreadInfo, thread_info)
 DEFINE_MEMBER_2(State, state)
 DEFINE_MEMBER_2(Stack, stack)

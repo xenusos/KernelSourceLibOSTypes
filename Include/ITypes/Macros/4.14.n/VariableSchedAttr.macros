@@ -1,0 +1,8 @@
+DEFINE_MEMBER_2(Size, size)
+DEFINE_MEMBER_2(SchedPolicy, sched_policy)
+DEFINE_MEMBER_2(SchedFlags, sched_flags)
+DEFINE_MEMBER_2(SchedNice, sched_nice)
+DEFINE_MEMBER_2(SchedPriority, sched_priority)
+DEFINE_MEMBER_2(SchedRuntime, sched_runtime)
+DEFINE_MEMBER_2(SchedDeadline, sched_deadline)
+DEFINE_MEMBER_2(SchedPeriod, sched_period)

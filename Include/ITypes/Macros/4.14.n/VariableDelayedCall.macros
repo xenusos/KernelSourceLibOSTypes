@@ -1,0 +1,2 @@
+DEFINE_MEMBER_2(Fn, fn)
+DEFINE_MEMBER_2(Arg, arg)
